@@ -24,7 +24,7 @@ session_start();
       <h3>Scelgiere una password con un minimo di 8 caratteri e un massimo di 32 caratteri</h3>
     </div>
     <div class="form generalities">
-      <form action="function.php" method="post">
+      <form action="result.php" method="post">
         <label name="length" class="me-5">Lunghezza password:</label>
         <input class="length-selector" type="number" id="length" name="length"><br><br>
         <input class="me-2 btn btn-primary" type="submit" value="Invia">
